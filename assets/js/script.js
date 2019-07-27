@@ -64,4 +64,38 @@ let isChecked = true,
     console.log(isChecked || !isClose);
 
 
+    if (2*4 === 7) {
+console.log('correctly')
+    } else {
+        console.log('incorrectly')
+    }
 
+let num = 50;
+
+if (num < 49) {
+    console.log ('incorrectly')
+} else if (num>100) {
+    console.log ('too much')
+} else {
+    console.log ('enough')
+}
+
+(num == 50) ? console.log('enough') : console.log('incorrectly');
+
+switch (num) {
+    case num < 49: 
+    console.log('enough');
+    break;
+    case num > 100:
+    console.log('too much');
+    break;
+    case num > 80:
+    console.log('too much 2');
+    break;
+    case  50: // just write what is the value
+    console.log('enough');
+    break;
+    default: 
+    console.log ('something wrong');
+    break;
+}
